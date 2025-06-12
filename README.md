@@ -50,27 +50,30 @@ Built using **WSL (Ubuntu 20.04)** and compatible with native Linux environments
 - `g++` compiler  
 - `cmake` and `make` tools
 
-### Build Instructions
+### Build and Run Instructions (Terminal)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/mini-os-cpp.git
-   cd mini-os-cpp
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/mini-os-cpp.git
+cd mini-os-cpp
 
-
-2.Create build directory and compile:
+# 2. Create a build directory and compile
 mkdir build
 cd build
 cmake ..
 make
-3.Run the OS with custom resource configuration:
+
+# 3. Run the OS with custom resource configuration
 ./CrashOS <CPU_CORES> <RAM_MB> <HDD_GB>
-Example:
+
+# Example
 ./CrashOS 8 256 8
--This will start the mini OS with:
--> 8 CPU cores
--> 256 MB RAM
--> 8 GB HDD
+
+# This will start the mini OS with:
+# -> 8 CPU cores
+# -> 256 MB RAM
+# -> 8 GB HDD
+```
 
 
 Author:
